@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="cogmento Test automtion regression suite"
+	parallel="tests" thread-count="3">
+
+	<listeners>
+
+		<listener
+			class-name="com.QA.crmpro.testlistners.ExtentReportListener" />
+		<listener
+			class-name="com.QA.crmpro.testlistners.TestAllureListener" />
+		<listener
+			class-name="com.QA.crmpro.testlistners.TesultsListener" />
+	</listeners>
+
+
+	<test name="LoginPageTest Test">
+			<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.QA.crmpro.Tests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="HomePage Test">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.QA.crmpro.Tests.HomePageTest" />
+		</classes>
+	</test>
+
+	<test name="SignUPPage Test">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.QA.crmpro.Tests.SignUpPageTest" />
+		</classes>
+	</test>
+</suite>

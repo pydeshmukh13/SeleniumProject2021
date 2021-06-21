@@ -1,0 +1,45 @@
+allure-results/
+screenshot/
+test-output/
+build/
+
+
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class/
+*.jar/
+*.war/
+*.ear/
+*.nar/
+hs_err_pid*
+##############################
+## Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+po.xml.versionBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+.mvn/timimg.properties
+.mvn/wrapper/maven-wrapper.jar
+##############################
+## Eclips
+##############################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+

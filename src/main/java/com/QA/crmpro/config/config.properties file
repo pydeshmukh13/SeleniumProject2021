@@ -1,0 +1,16 @@
+browser= firefox
+url = https://ui.cogmento.com/
+
+username= pydeshmukh13@gmail.com
+password = Test@123
+
+headless= false
+incongnito= false
+
+
+huburl = http://localhost:4444/wd/hub
+remote = true
+
+
+email = wemohix165@beydent.com
+phone=8275456737
