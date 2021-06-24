@@ -17,13 +17,16 @@
 
 	<test name="LoginPageTest Test">
 			<parameter name="browser" value="chrome"/>
+			<parameter name="version" value="91"/>
+			
 		<classes>
 			<class name="com.QA.crmpro.Tests.LoginPageTest" />
 		</classes>
 	</test>
 
 	<test name="HomePage Test">
-	<parameter name="browser" value="firefox"/>
+	<parameter name="browser" value="chrome"/>
+	<parameter name="version" value="91"/>
 		<classes>
 			<class name="com.QA.crmpro.Tests.HomePageTest" />
 		</classes>
@@ -31,6 +34,7 @@
 
 	<test name="SignUPPage Test">
 		<parameter name="browser" value="chrome"/>
+		<parameter name="version" value="91"/>
 		<classes>
 			<class name="com.QA.crmpro.Tests.SignUpPageTest" />
 		</classes>
